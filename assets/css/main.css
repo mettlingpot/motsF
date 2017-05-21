@@ -1,0 +1,38 @@
+body{
+    padding-top: 70px;
+}
+td input{
+    font-size: 1.8em; 
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    color: black;
+}
+ td {
+    font-size: 0.8em; 
+    height: 30px;
+    width: 60px;
+    text-align: center;
+     color: black;
+     background-color:cadetblue;
+}
+.demi{
+    width: 60px;
+    text-align: center;
+    border-bottom: solid 0.2px;
+    border-color: black;
+ 
+}
+.droit{
+    background-image: url("droit.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.bas{
+    background-image: url("bas.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    z-index: 100;
+}
